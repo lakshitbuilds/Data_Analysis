@@ -1,132 +1,167 @@
-## Dataset Understanding
+Your dataset is actually very good for real-world analysis 🔥
+It contains:
+
+* Company
+* Model
+* RAM
+* Camera
+* Processor
+* Battery
+* Screen Size
+* Prices in multiple countries
+* Launch year
+
+Example rows from your file: 
+
+---
+
+# 100 REAL PROBLEMS FOR YOUR MOBILE DATASET
+
+## Basic Exploration
 
 1. Show first 5 rows
 2. Show last 10 rows
 3. Find total rows and columns
 4. Show all column names
-5. Check data types of every column
-6. Find missing values in each column
+5. Check datatype of each column
+6. Find missing values
 7. Find duplicate rows
-8. Count unique values in every column
-9. Show dataset information using `info()`
-10. Generate summary statistics using `describe()`
+8. Count unique companies
+9. Count unique processors
+10. Show summary statistics
 
 ---
 
-# Data Cleaning Problems
+# Company Analysis
 
-11. Remove duplicate rows
-12. Fill missing values with mean
-13. Fill missing values with median
-14. Replace null values with `"Unknown"`
-15. Convert price column to integer
-16. Remove symbols like `₹`, `$`, `%`, `GB`
-17. Convert date column into datetime format
-18. Rename columns properly
-19. Convert text columns to lowercase
-20. Remove extra spaces from strings
-21. Drop unnecessary columns
-22. Replace empty strings with NaN
-23. Remove rows with too many missing values
-24. Convert RAM column from `"8GB"` → `8`
-25. Convert storage column from `"512GB SSD"` → `512`
+11. Count mobiles company-wise
+12. Find company with most phones
+13. Find Apple phones only
+14. Find Samsung phones only
+15. Find OnePlus phones only
+16. Find average price by company
+17. Find highest priced phone by company
+18. Find cheapest phone by company
+19. Find latest launched phones company-wise
+20. Count models launched after 2022
 
 ---
 
-# Filtering Problems
+# RAM Analysis
 
-26. Find laptops with 8GB RAM
-27. Find products above ₹50,000
-28. Find products below average price
-29. Find rows where rating > 4
-30. Find rows containing `"RTX"`
-31. Filter data for specific brand
-32. Find products between two prices
-33. Find rows with null values
-34. Find products with SSD storage
-35. Find products released after 2023
-36. Find products with Intel processor
-37. Find products with 16GB RAM and RTX GPU
-38. Find products cheaper than median price
-39. Find rows where stock is less than 10
-40. Find products with highest rating
+21. Find phones with 8GB RAM
+22. Find phones with 12GB RAM
+23. Count phones RAM-wise
+24. Find average price of 8GB phones
+25. Find company with highest RAM phones
+26. Convert `"8GB"` → `8`
+27. Find phones with RAM > 8GB
+28. Sort by RAM descending
+29. Find most common RAM
+30. Find premium phones with 16GB RAM
 
 ---
 
-# Sorting Problems
+# Price Analysis
 
-41. Sort products by highest price
-42. Sort products by lowest rating
-43. Sort by multiple columns
-44. Find top 10 expensive products
-45. Find cheapest 5 products
-46. Sort alphabetically by brand
-47. Find newest products first
-48. Sort by RAM and price together
-49. Sort by rating descending and price ascending
-50. Sort products by storage size
-
----
-
-# GroupBy Problems
-
-51. Find average price by brand
-52. Count products category-wise
-53. Find highest priced laptop per brand
-54. Find average rating by company
-55. Find total sales by region
-56. Find mean salary department-wise
-57. Find maximum marks subject-wise
-58. Find minimum price in every category
-59. Count laptops brand-wise
-60. Count products with RTX GPU
-61. Count products having SSD
-62. Count products above ₹1 lakh
-63. Count null values in each column
-64. Count duplicate rows
-65. Count products by RAM size
-66. Count products by processor type
-67. Count ratings greater than 4
-68. Count unique brands
-69. Count products released each year
-70. Count expensive laptops per brand
+31. Convert Pakistan price to integer
+32. Find phones above PKR 200000
+33. Find phones below PKR 50000
+34. Find most expensive phone
+35. Find cheapest phone
+36. Find average phone price
+37. Find median phone price
+38. Find top 10 expensive phones
+39. Find cheapest Apple phone
+40. Compare Apple vs Samsung average prices
 
 ---
 
-# Statistical Analysis
+# Camera Analysis
 
-71. Find mean price
-72. Find median salary
-73. Find mode of RAM column
-74. Find standard deviation of ratings
-75. Find variance of prices
-76. Find maximum price
-77. Find minimum rating
-78. Find correlation between price and rating
-79. Find correlation between RAM and price
-80. Find percentile values of price
+41. Find phones with 200MP camera
+42. Find phones with 108MP camera
+43. Find phones with highest front camera
+44. Find average back camera by company
+45. Count phones with dual camera
+46. Count phones with triple camera
+47. Find best camera phones
+48. Find phones with 4K front camera
+49. Find phones with lowest camera specs
+50. Compare camera vs price
 
 ---
 
-# Real Project-Type Tasks
+# Battery Analysis
 
-81. Find best value-for-money laptop
-82. Find most common processor
-83. Count RTX laptops
-84. Find brand with highest average price
-85. Create discount column
-86. Create GST column
-87. Export cleaned data to CSV
-88. Create pivot table
-89. Create charts using Matplotlib
-90. Build dashboard using Microsoft Power BI
-91. Find sales trend month-wise
-92. Predict future sales trend
-93. Compare SSD vs HDD laptop prices
-94. Find gaming laptops only
-95. Create price categories (`Budget`, `Mid-range`, `Premium`)
-96. Find top-rated budget laptops
-97. Find processor performance trends
-98. Analyze customer ratings
-99. Find brands giving highest RAM at lowest price
-100. Create final cleaned dataset for analysis
+51. Convert `"5000mAh"` → `5000`
+52. Find phones above 5000mAh
+53. Find highest battery phone
+54. Find lowest battery phone
+55. Average battery company-wise
+56. Count phones with 6000mAh battery
+57. Compare battery vs price
+58. Find phones with battery > average battery
+59. Sort by battery descending
+60. Find gaming phones using battery + RAM
+
+---
+
+# Processor Analysis
+
+61. Count Snapdragon phones
+62. Count Exynos phones
+63. Count MediaTek phones
+64. Find most used processor
+65. Find flagship processors only
+66. Find phones with Snapdragon 8 Gen 2
+67. Compare processor vs price
+68. Find processor used most by Samsung
+69. Find processor used most by Apple
+70. Find premium processors only
+
+---
+
+# Screen Analysis
+
+71. Convert `"6.7 inches"` → `6.7`
+72. Find biggest screen phone
+73. Find smallest screen phone
+74. Find average screen size
+75. Find tablets only
+76. Find compact phones (<6 inches)
+77. Sort by screen size
+78. Compare screen size vs battery
+79. Find fold phones
+80. Count phones above 6.5 inches
+
+---
+
+# Launch Year Analysis
+
+81. Count phones year-wise
+82. Find latest launched phones
+83. Find oldest phones
+84. Find phones launched in 2024
+85. Find average price by launch year
+86. Find price increase over years
+87. Count flagship phones year-wise
+88. Compare old vs new phones
+89. Find newest Samsung phones
+90. Find newest Apple phones
+
+---
+
+# Advanced Real Analyst Tasks
+
+91. Create price category column
+92. Create battery category column
+93. Create premium phone dataset
+94. Find value-for-money phones
+95. Find gaming phones
+96. Find camera-centric phones
+97. Find budget phones
+98. Build company comparison table
+99. Create pivot table
+100. Create dashboard using Microsoft Power BI
+

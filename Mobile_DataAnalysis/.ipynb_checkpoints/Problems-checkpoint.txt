@@ -1,0 +1,132 @@
+## Dataset Understanding
+
+1. Show first 5 rows
+2. Show last 10 rows
+3. Find total rows and columns
+4. Show all column names
+5. Check data types of every column
+6. Find missing values in each column
+7. Find duplicate rows
+8. Count unique values in every column
+9. Show dataset information using `info()`
+10. Generate summary statistics using `describe()`
+
+---
+
+# Data Cleaning Problems
+
+11. Remove duplicate rows
+12. Fill missing values with mean
+13. Fill missing values with median
+14. Replace null values with `"Unknown"`
+15. Convert price column to integer
+16. Remove symbols like `₹`, `$`, `%`, `GB`
+17. Convert date column into datetime format
+18. Rename columns properly
+19. Convert text columns to lowercase
+20. Remove extra spaces from strings
+21. Drop unnecessary columns
+22. Replace empty strings with NaN
+23. Remove rows with too many missing values
+24. Convert RAM column from `"8GB"` → `8`
+25. Convert storage column from `"512GB SSD"` → `512`
+
+---
+
+# Filtering Problems
+
+26. Find laptops with 8GB RAM
+27. Find products above ₹50,000
+28. Find products below average price
+29. Find rows where rating > 4
+30. Find rows containing `"RTX"`
+31. Filter data for specific brand
+32. Find products between two prices
+33. Find rows with null values
+34. Find products with SSD storage
+35. Find products released after 2023
+36. Find products with Intel processor
+37. Find products with 16GB RAM and RTX GPU
+38. Find products cheaper than median price
+39. Find rows where stock is less than 10
+40. Find products with highest rating
+
+---
+
+# Sorting Problems
+
+41. Sort products by highest price
+42. Sort products by lowest rating
+43. Sort by multiple columns
+44. Find top 10 expensive products
+45. Find cheapest 5 products
+46. Sort alphabetically by brand
+47. Find newest products first
+48. Sort by RAM and price together
+49. Sort by rating descending and price ascending
+50. Sort products by storage size
+
+---
+
+# GroupBy Problems
+
+51. Find average price by brand
+52. Count products category-wise
+53. Find highest priced laptop per brand
+54. Find average rating by company
+55. Find total sales by region
+56. Find mean salary department-wise
+57. Find maximum marks subject-wise
+58. Find minimum price in every category
+59. Count laptops brand-wise
+60. Count products with RTX GPU
+61. Count products having SSD
+62. Count products above ₹1 lakh
+63. Count null values in each column
+64. Count duplicate rows
+65. Count products by RAM size
+66. Count products by processor type
+67. Count ratings greater than 4
+68. Count unique brands
+69. Count products released each year
+70. Count expensive laptops per brand
+
+---
+
+# Statistical Analysis
+
+71. Find mean price
+72. Find median salary
+73. Find mode of RAM column
+74. Find standard deviation of ratings
+75. Find variance of prices
+76. Find maximum price
+77. Find minimum rating
+78. Find correlation between price and rating
+79. Find correlation between RAM and price
+80. Find percentile values of price
+
+---
+
+# Real Project-Type Tasks
+
+81. Find best value-for-money laptop
+82. Find most common processor
+83. Count RTX laptops
+84. Find brand with highest average price
+85. Create discount column
+86. Create GST column
+87. Export cleaned data to CSV
+88. Create pivot table
+89. Create charts using Matplotlib
+90. Build dashboard using Microsoft Power BI
+91. Find sales trend month-wise
+92. Predict future sales trend
+93. Compare SSD vs HDD laptop prices
+94. Find gaming laptops only
+95. Create price categories (`Budget`, `Mid-range`, `Premium`)
+96. Find top-rated budget laptops
+97. Find processor performance trends
+98. Analyze customer ratings
+99. Find brands giving highest RAM at lowest price
+100. Create final cleaned dataset for analysis
