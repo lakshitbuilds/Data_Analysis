@@ -1,0 +1,84 @@
+# Hockey Dataset Analysis Questions 🚀
+
+1. Find the team with maximum wins.
+
+2. Find the team with minimum losses.
+
+3. Find all teams having wins greater than 40.
+
+4. Find all teams having losses less than 20.**
+
+5. Find average wins of all teams.
+
+6. Find average losses of all teams.
+
+7. Find top 10 teams with highest wins.
+
+8. Find bottom 10 teams with lowest wins.
+
+9. Sort teams by wins in descending order.
+
+10. Sort teams by losses in ascending order.**
+
+11. Find all teams from year 2011.
+
+12. Find all teams between years 2005 and 2010.
+
+13. Count total unique teams.
+
+14. Find how many records each year contains.
+
+15. Find which year has highest average wins.
+
+16. Find which year has lowest average losses.
+
+17. Create a new column:
+
+```python id="m4u8tp"
+Win_Difference = Wins - Losses
+```
+
+18. Find team with highest win difference.
+
+19. Find team with lowest win difference.
+
+20. Find correlation between wins and losses.
+
+21. Plot bar chart of top 10 teams by wins.
+
+22. Plot histogram of wins.
+
+23. Plot histogram of losses.
+
+24. Plot line graph of yearly average wins.
+
+25. Plot scatter graph of wins vs losses.
+
+26. Find teams whose wins are above average.
+
+27. Find teams whose losses are below average.
+
+28. Find median wins.
+
+29. Find mode of wins.
+
+30. Find standard deviation of wins.
+
+31. Find all teams with exactly 50 wins.
+
+32. Find all years where average wins exceeded 35.
+
+33. Find duplicate team names if any.
+
+34. Find the oldest year in dataset.
+
+35. Find the latest year in dataset.
+
+36. Find total wins of all teams combined.
+
+37. Find total losses of all teams combined.
+
+38. Find percentage of teams having wins above 30.
+
+39. Save filtered top teams into another CSV file.
+
