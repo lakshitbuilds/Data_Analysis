@@ -1,167 +1,103 @@
-Your dataset is actually very good for real-world analysis 🔥
-It contains:
+# 50 Practice Problems on Your Mobile Dataset
 
-* Company
-* Model
-* RAM
-* Camera
-* Processor
-* Battery
-* Screen Size
-* Prices in multiple countries
-* Launch year
-
-Example rows from your file: 
-
----
-
-# 100 REAL PROBLEMS FOR YOUR MOBILE DATASET
-
-## Basic Exploration
+## Beginner Level
 
 1. Show first 5 rows
+
 2. Show last 10 rows
+
 3. Find total rows and columns
+
 4. Show all column names
+
 5. Check datatype of each column
+
 6. Find missing values
+
 7. Find duplicate rows
+
 8. Count unique companies
-9. Count unique processors
-10. Show summary statistics
+
+
+11. Find all phones launched in 2023.
+
+12. Find all Samsung phones.
+
+13. Find all Xiaomi phones.
+
+14. Find phones with battery greater than 5000 mAh.
+
+15. Find phones with screen size larger than 6.5 inches.
+
+16. Find phones costing more than ₹50,000 in India.
+
+17. Find phones costing less than ₹20,000 in India.
+
+18. Find phones with Snapdragon processor.
+
+19. Find phones with MediaTek processor.
+
+20. Find phones with 108MP back camera.
 
 ---
 
-# Company Analysis
+# Intermediate Level
 
-11. Count mobiles company-wise
-12. Find company with most phones
-13. Find Apple phones only
-14. Find Samsung phones only
-15. Find OnePlus phones only
-16. Find average price by company
-17. Find highest priced phone by company
-18. Find cheapest phone by company
-19. Find latest launched phones company-wise
-20. Count models launched after 2022
+21. Sort phones by India price ascending.
 
----
+22. Sort phones by battery descending.
 
-# RAM Analysis
+23. Find top 10 expensive phones in India.
 
-21. Find phones with 8GB RAM
-22. Find phones with 12GB RAM
-23. Count phones RAM-wise
-24. Find average price of 8GB phones
-25. Find company with highest RAM phones
-26. Convert `"8GB"` → `8`
-27. Find phones with RAM > 8GB
-28. Sort by RAM descending
-29. Find most common RAM
-30. Find premium phones with 16GB RAM
+24. Find top 5 cheapest phones in USA.
 
----
+25. Find average India launch price.
 
-# Price Analysis
+26. Find maximum battery capacity.
 
-31. Convert Pakistan price to integer
-32. Find phones above PKR 200000
-33. Find phones below PKR 50000
-34. Find most expensive phone
-35. Find cheapest phone
-36. Find average phone price
-37. Find median phone price
-38. Find top 10 expensive phones
-39. Find cheapest Apple phone
-40. Compare Apple vs Samsung average prices
+27. Find minimum battery capacity.
 
----
+28. Find average screen size.
 
-# Camera Analysis
+29. Find average phone weight.
 
-41. Find phones with 200MP camera
-42. Find phones with 108MP camera
-43. Find phones with highest front camera
-44. Find average back camera by company
-45. Count phones with dual camera
-46. Count phones with triple camera
-47. Find best camera phones
-48. Find phones with 4K front camera
-49. Find phones with lowest camera specs
-50. Compare camera vs price
+30. Count phones company-wise.
+
+31. Count phones year-wise.
+
+32. Find average India price company-wise.
+
+33. Find average battery company-wise.
+
+34. Find most common RAM size.
+
+35. Find most common processor.
+
+36. Find company with most phones.
+
+37. Find company with highest average price.
+
+38. Find phones having both 12GB RAM and 256GB storage (if storage exists).
+
+39. Find all premium phones above ₹80,000.
+
+40. Find phones launched between 2020 and 2023.
 
 ---
 
-# Battery Analysis
+# Advanced Level
 
-51. Convert `"5000mAh"` → `5000`
-52. Find phones above 5000mAh
-53. Find highest battery phone
-54. Find lowest battery phone
-55. Average battery company-wise
-56. Count phones with 6000mAh battery
-57. Compare battery vs price
-58. Find phones with battery > average battery
-59. Sort by battery descending
-60. Find gaming phones using battery + RAM
+41. Create a new column called `"Price Category"`:
 
----
+* Budget
+* Mid-Range
+* Premium
 
-# Processor Analysis
+42. Find percentage of premium phones.
 
-61. Count Snapdragon phones
-62. Count Exynos phones
-63. Count MediaTek phones
-64. Find most used processor
-65. Find flagship processors only
-66. Find phones with Snapdragon 8 Gen 2
-67. Compare processor vs price
-68. Find processor used most by Samsung
-69. Find processor used most by Apple
-70. Find premium processors only
+43. Compare India and USA prices.
 
----
+44. Find correlation between battery and price.
 
-# Screen Analysis
-
-71. Convert `"6.7 inches"` → `6.7`
-72. Find biggest screen phone
-73. Find smallest screen phone
-74. Find average screen size
-75. Find tablets only
-76. Find compact phones (<6 inches)
-77. Sort by screen size
-78. Compare screen size vs battery
-79. Find fold phones
-80. Count phones above 6.5 inches
-
----
-
-# Launch Year Analysis
-
-81. Count phones year-wise
-82. Find latest launched phones
-83. Find oldest phones
-84. Find phones launched in 2024
-85. Find average price by launch year
-86. Find price increase over years
-87. Count flagship phones year-wise
-88. Compare old vs new phones
-89. Find newest Samsung phones
-90. Find newest Apple phones
-
----
-
-# Advanced Real Analyst Tasks
-
-91. Create price category column
-92. Create battery category column
-93. Create premium phone dataset
-94. Find value-for-money phones
-95. Find gaming phones
-96. Find camera-centric phones
-97. Find budget phones
-98. Build company comparison table
-99. Create pivot table
-100. Create dashboard using Microsoft Power BI
+45. Find correlation between screen size and price.
 
