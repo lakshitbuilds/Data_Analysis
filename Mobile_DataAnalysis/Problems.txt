@@ -1,7 +1,3 @@
-# 50 Practice Problems on Your Mobile Dataset
-
-## Beginner Level
-
 1. Show first 5 rows
 
 2. Show last 10 rows
@@ -16,88 +12,72 @@
 
 7. Find duplicate rows
 
-8. Count unique companies
+8. Show unique companies
 
+9. Find all phones launched in 2023
 
-11. Find all phones launched in 2023.
+10. Find all Samsung phones
 
-12. Find all Samsung phones.
+11. Find all Xiaomi phones
 
-13. Find all Xiaomi phones.
+12. Find phones with battery greater than 5000 mAh
 
-14. Find phones with battery greater than 5000 mAh.
+13. Find phones with screen size larger than 6.5 inches
 
-15. Find phones with screen size larger than 6.5 inches.
+14. Find phones costing more than ₹50,000 in India
 
-16. Find phones costing more than ₹50,000 in India.
+15. Find phones costing less than ₹20,000 in India
 
-17. Find phones costing less than ₹20,000 in India.
+16. Find phones with Snapdragon processor
 
-18. Find phones with Snapdragon processor.
+17. Find phones with MediaTek processor
 
-19. Find phones with MediaTek processor.
+18. Find phones with 108MP back camera
 
-20. Find phones with 108MP back camera.
+19. Sort phones by India price ascending
 
----
+20. Sort phones by battery descending
 
-# Intermediate Level
+21. Find top 10 expensive phones in India
 
-21. Sort phones by India price ascending.
+22. Find top 5 cheapest phones in USA
 
-22. Sort phones by battery descending.
+23. Find average India launch price
 
-23. Find top 10 expensive phones in India.
+24. Find maximum battery capacity
 
-24. Find top 5 cheapest phones in USA.
+25. Find minimum battery capacity
 
-25. Find average India launch price.
+26. Find average screen size
 
-26. Find maximum battery capacity.
+27. Find average phone weight
 
-27. Find minimum battery capacity.
+28. Find average India price company-wise
 
-28. Find average screen size.
+29. Find average battery company-wise
 
-29. Find average phone weight.
+30. Find most common RAM size
 
-30. Count phones company-wise.
+31. Find most common processor
 
-31. Count phones year-wise.
+32. Find company with highest average price
 
-32. Find average India price company-wise.
+33. Find phones having both 12GB RAM and 256GB storage
 
-33. Find average battery company-wise.
+34. Find all premium phones above ₹80,000
 
-34. Find most common RAM size.
+35. Find phones launched between 2020 and 2023
 
-35. Find most common processor.
-
-36. Find company with most phones.
-
-37. Find company with highest average price.
-
-38. Find phones having both 12GB RAM and 256GB storage (if storage exists).
-
-39. Find all premium phones above ₹80,000.
-
-40. Find phones launched between 2020 and 2023.
-
----
-
-# Advanced Level
-
-41. Create a new column called `"Price Category"`:
+36. Create a new column called `"Price Category"`:
 
 * Budget
 * Mid-Range
 * Premium
 
-42. Find percentage of premium phones.
+37. Find percentage of premium phones
 
-43. Compare India and USA prices.
+38. Compare India and USA prices
 
-44. Find correlation between battery and price.
+39. Find correlation between battery and price
 
-45. Find correlation between screen size and price.
-
+40. Find correlation between screen size and price
